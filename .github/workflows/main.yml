@@ -10,5 +10,5 @@ jobs:
         with:
           access_token: ${{ secrets.LINE_ACCESS_TOKEN }}
           message: |
-            Issue is opened.
+            이슈가 등록 되었습니다.
             ${{ github.event.issue.title }}
